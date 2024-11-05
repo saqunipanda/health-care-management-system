@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Healthcare System</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html" class="active">Services</a></li>
+            <li><a href="appointments.html">Appointments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header class="hero">
+            <h1>Our Services</h1>
+            <p>Explore the wide range of healthcare services we offer to meet your needs.</p>
+        </header>
+
+        <section class="services-section">
+            <div class="service-card" onclick="window.location.href='service-details.html?service=general-consultation'">
+                <div class="icon">&#128137;</div>
+                <h3>General Consultation</h3>
+                <p>Click for details</p>
+            </div>
+
+            <div class="service-card" onclick="window.location.href='service-details.html?service=pediatric-care'">
+                <div class="icon">&#128100;</div>
+                <h3>Pediatric Care</h3>
+                <p>Click for details</p>
+            </div>
+
+            <div class="service-card" onclick="window.location.href='service-details.html?service=dental-services'">
+                <div class="icon">&#128657;</div>
+                <h3>Dental Services</h3>
+                <p>Click for details</p>
+            </div>
+
+            <div class="service-card" onclick="window.location.href='service-details.html?service=cardiology'">
+                <div class="icon">&#127891;</div>
+                <h3>Cardiology</h3>
+                <p>Click for details</p>
+            </div>
+
+            <div class="service-card" onclick="window.location.href='service-details.html?service=dermatology'">
+                <div class="icon">&#127942;</div>
+                <h3>Dermatology</h3>
+                <p>Click for details</p>
+            </div>
+
+            <div class="service-card" onclick="window.location.href='service-details.html?service=nutrition-counseling'">
+                <div class="icon">&#127801;</div>
+                <h3>Nutrition Counseling</h3>
+                <p>Click for details</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Healthcare Management System. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
